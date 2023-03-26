@@ -63,3 +63,7 @@ List     0m0.847s
 
 Hset     0m0.847s
 
+C запросами у меня плохо, попробовал сделать по аналогии 
+time redis-cli  -c --user admin --pass password -p 6379 -x get test-db  
+
+Запрос висел более 4 минут дальше продолжать не стал
