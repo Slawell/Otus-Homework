@@ -43,6 +43,8 @@ PUT https://192.168.18.100:9200/otus-index/otus-index
 
 Подключился в web интерфуйс kibans и согласно инструкции по ссылке выше создал data viev
 
+![Pattern](https://github.com/Slawell/Otus-Homework/blob/main/Homework/home7_elastic/Pattern.png)
+
 ### - Добавить в индекс как минимум 3 документа:
 
 POST https://192.168.18.100:9200/otus-index/_doc
@@ -215,5 +217,9 @@ GET https://192.168.18.100:9200/otus-index/_search
             ]
         }
     }
+    
+    
+    Не уверен что правильно экспортировал коллекцию, прикладываю скрин postmann
+    ![Postmann_Collection](https://github.com/Slawell/Otus-Homework/blob/main/Homework/home7_elastic/Collection.png)
 
     
