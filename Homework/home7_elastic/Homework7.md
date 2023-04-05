@@ -41,7 +41,7 @@ PUT https://192.168.18.100:9200/otus-index/otus-index
 
 В версии 8.7 индекс паттерн был переименован в data viev https://www.elastic.co/guide/en/kibana/8.7/data-views.html
 
-Подключился в web интерфуйс kibans и согласно инструкции по ссылке выше создал data viev
+Подключился в web интерфейсу kibans и согласно инструкции по ссылке выше создал data viev
 
 ![Pattern](https://github.com/Slawell/Otus-Homework/blob/main/Homework/home7_elastic/Pattern.png)
 
