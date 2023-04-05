@@ -218,11 +218,12 @@ GET https://192.168.18.100:9200/otus-index/_search
         }
     }
     
+    ### Коллекция
     
     Не уверен что правильно экспортировал коллекцию, прикладываю скрин postmann
     
-    ![Collection](https://github.com/Slawell/Otus-Homework/blob/main/Homework/home7_elastic/Collection.png)
+ ![Collection](https://github.com/Slawell/Otus-Homework/blob/main/Homework/home7_elastic/Collection.png)
     
-    ![Pattern](https://github.com/Slawell/Otus-Homework/blob/main/Homework/home7_elastic/Pattern.png)
+
 
     
