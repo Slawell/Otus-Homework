@@ -157,7 +157,14 @@ bar
     http://192.168.18.200:2379, 618713c84a835f7b, 3.5.7, 20 kB, false, false, 12, 33, 33,
     http://192.168.18.201:2379, e445dc02c1646a61, 3.5.7, 20 kB, false, false, 12, 33, 33,
 
-    Мастер теперь на 3 ноде etcd3
+[root@etcd1 ~]# etcdctl endpoint --cluster health
+
+        http://192.168.18.202:2379 is healthy: successfully committed proposal: took = 15.121605ms
+        http://192.168.18.201:2379 is healthy: successfully committed proposal: took = 15.357552ms
+        http://192.168.18.200:2379 is healthy: successfully committed proposal: took = 17.198574ms
+
+
+Мастер теперь на 3 ноде etcd3
 
 
 
