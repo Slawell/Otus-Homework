@@ -73,7 +73,8 @@ sudo dnf install cartridge-cli
     * Connection #0 to host 192.168.18.51 left intact
 
 Http модуль в rocks присутвует
- ![Http_module](https://github.com/Slawell/Otus-Homework/blob/main/Homework/home13_TDG/http_module.png)   
+
+![Http_module](https://github.com/Slawell/Otus-Homework/blob/main/Homework/home13_TDG/http_module.png)   
 
 Далее чтобы что то поделать собираю стандартный кластер с двумя шардами и 1 роутером
 
@@ -87,7 +88,7 @@ Http модуль в rocks присутвует
 
 Включаю файловер на основе raft:
 
-![Http_module](hhttps://github.com/Slawell/Otus-Homework/blob/main/Homework/home13_TDG/Failover.png)  
+![Http_module](https://github.com/Slawell/Otus-Homework/blob/main/Homework/home13_TDG/Failover.png)  
 
 C raft не сработало переключение лидера, необходимо больше нод в реплике. Получилось переключить только исключив из голосования мастер
 
